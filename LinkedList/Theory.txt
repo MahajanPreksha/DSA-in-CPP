@@ -36,3 +36,11 @@ Insertion at kth position in a singly linked list:
 (1) At the start of the head: Time Complexity- O(1)
 (2) At the end of the list: Time Complexity- O(n) [If tail pointer is passed, then O(1)]
 (3) At an arbitrary position: O(k) or O(n) in worst case
+
+Updation at kth position in a singly linked list:
+Time Complexity is O(k) but O(n) in worst case
+
+Deletion at kth position in a singly linked list:
+(1) At the start: Time Complexity- O(1)
+(2) At the end: Time Complexity- O(n)
+(3) At an arbitrary position: Time Complexity- O(n)
