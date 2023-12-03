@@ -19,7 +19,7 @@ Head pointer points to the first node and gives the entire linked list.
 Last node's next field stores NULL. It is also called Tail Node.
 
 Types of Linked Lists:
-(a) Singly linked list: Every node points to its sucessor node.
+(a) Singly linked list: Every node points to its successor node.
 (b) Doubly linked list: Every node is connected to its previous and next node.
 (c) Circular linked list: The last node will point to head node.
 
