@@ -57,7 +57,7 @@ void deleteAtEnd(Node* &head){
         secondLast = secondLast->next;
     }
     //secondLast points to second last node
-    Node* temp = secondLast->next;
+    Node* temp = secondLast->next; //node to be deleted
     secondLast->next = NULL;
     free(temp);
 }

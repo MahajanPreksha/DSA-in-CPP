@@ -47,7 +47,7 @@ void updateAtPosition(Node* &head, int k, int value){
     temp->val = value;
 }
 void deleteAtHead(Node* &head){
-    Node* temp = head;
+    Node* temp = head; //node to be deleted
     head = head->next;
     free(temp);
 }
