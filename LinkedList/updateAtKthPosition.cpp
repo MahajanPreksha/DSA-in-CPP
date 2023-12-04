@@ -45,6 +45,7 @@ void updateAtPosition(Node* &head, int k, int value){
         temp = temp->next;
         curr_pos++;
     }
+    //temp will point to kth node
     temp->val = value;
 }
 void display(Node* head){
