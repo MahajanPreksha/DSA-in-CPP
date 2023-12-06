@@ -39,7 +39,7 @@ class LinkedList{
 };
 void deleteAlternateElement(Node* &head){
     Node* curr = head;
-    while(curr!=NULL && curr->next!=NULL){
+    while(curr!=NULL && curr->next!=NULL){ //stopping conditions
         Node* temp = curr->next; //this is the node to be deleted
         curr->next = curr->next->next;
         free(temp);
