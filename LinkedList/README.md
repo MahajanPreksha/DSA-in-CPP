@@ -70,22 +70,41 @@ Time Complexity is O(k) but O(n) in the worst case.
 
 ## Linked List Questions:
 1. Print Linked List Elements:
+
 https://www.geeksforgeeks.org/problems/print-linked-list-elements/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions
+
 2. Linked List Insertion:
+
 https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions
+
 3. Delete Alternate Nodes:
+
 https://www.geeksforgeeks.org/problems/delete-alternate-nodes/1?page=2&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions
+
 4.	Reverse a Linked List:
+
 https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions
+
 or
+
 https://leetcode.com/problems/reverse-linked-list/
+
 5. Count Nodes in Linked List:
+
 https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy,Medium,Hard&sortBy=submissions 
+
 6. Reverse Nodes in k-Group
+
 https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy,Medium,Hard&sortBy=submissions
+
 or
+
 https://leetcode.com/problems/reverse-nodes-in-k-group/
+
 7. Check if Two Linked Lists are Equal or Not
+
 8. Intersection of Two Linked Lists
+
 https://leetcode.com/problems/intersection-of-two-linked-lists/
+
 9.
