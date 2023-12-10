@@ -1,5 +1,6 @@
-***Linked List: It is a linear data structure used to store a list of values.***
-***These are memory blocks linked to each other.***
+# Introduction
+
+Linked List: It is a linear data structure used to store a list of values. These are memory blocks linked to each other.
 
 Array: It is a single memory block with partitions.
 
@@ -34,8 +35,6 @@ Array: It is a single memory block with partitions.
 - (b) **Doubly linked list:** Every node is connected to its previous and next node.
 - (c) **Circular linked list:** The last node will point to the head node.
 
-
-
 # Implementation of a Singly Linked List
 
 ## Listnode
@@ -68,43 +67,23 @@ Time Complexity is O(k) but O(n) in the worst case.
 2. **At the end:** Time Complexity - O(n)
 3. **At an arbitrary position:** Time Complexity - O(n)
 
-## Linked List Questions:
-1. Print Linked List Elements:
+# Linked List Questions
+1. [Print Linked List Elements](https://www.geeksforgeeks.org/problems/print-linked-list-elements/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions)
 
-https://www.geeksforgeeks.org/problems/print-linked-list-elements/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions
+2. [Linked List Insertion](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions)
 
-2. Linked List Insertion:
+3. [Delete Alternate Nodes](https://www.geeksforgeeks.org/problems/delete-alternate-nodes/1?page=2&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions)
 
-https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions
+4. [Reverse a Linked List](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions) or [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
-3. Delete Alternate Nodes:
+5. [Count Nodes in Linked List](https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy,Medium,Hard&sortBy=submissions)
 
-https://www.geeksforgeeks.org/problems/delete-alternate-nodes/1?page=2&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions
-
-4.	Reverse a Linked List:
-
-https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions
-
-or
-
-https://leetcode.com/problems/reverse-linked-list/
-
-5. Count Nodes in Linked List:
-
-https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy,Medium,Hard&sortBy=submissions 
-
-6. Reverse Nodes in k-Group
-
-https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy,Medium,Hard&sortBy=submissions
-
-or
-
-https://leetcode.com/problems/reverse-nodes-in-k-group/
+6. [Reverse a Linked List in Groups of Given Size](https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy,Medium,Hard&sortBy=submissions) or [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 7. Check if Two Linked Lists are Equal or Not
 
-8. Intersection of Two Linked Lists
+8. [Intersection of Two Linked Lists](https://www.geeksforgeeks.org/problems/intersection-of-two-linked-list/1?page=3&category=Linked%20List&sortBy=submissions) or [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
-https://leetcode.com/problems/intersection-of-two-linked-lists/
-
-9.
+9. [Nth Node From the End of the List](https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1?page=1&category=Linked%20List&sortBy=submissions)
+    
+10. [Remove Nth Node From End of the List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
