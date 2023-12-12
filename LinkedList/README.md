@@ -87,3 +87,9 @@ Time Complexity is O(k) but O(n) in the worst case.
 9. [Nth Node From the End of the List](https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1?page=1&category=Linked%20List&sortBy=submissions)
     
 10. [Remove Nth Node From End of the List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+11. [Merge Two Sorted Lists](https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1?page=1&category=Linked%20List&sortBy=submissions) or [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+12. [Merge K Sorted Linked Lists](https://www.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1?page=2&category=Linked%20List&sortBy=submissions) or [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+13. [Finding Middle Element in a Linked List](https://www.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1?page=1&category=Linked%20List&sortBy=submissions) or [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
