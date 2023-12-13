@@ -37,14 +37,20 @@ class LinkedList{
         cout<<"NULL"<<endl;
     }
 };
-Node* middle(Node* &head){
+bool linkedListCycle(Node* &head){
+    if(head==NULL){
+        return false;
+    }
     Node* slow = head;
     Node* fast = head;
     while(fast!=NULL && fast->next!=NULL){
         slow = slow->next;
         fast = fast->next->next;
+        if(slow==fast){
+            return true;
+        }
     }
-    return slow;
+    return false;
 }
 int main(){
     LinkedList ll;
@@ -53,10 +59,12 @@ int main(){
     ll.insertAtTail(3);
     ll.insertAtTail(4);
     ll.insertAtTail(5);
-    // ll.insertAtTail(6);
-    ll.display();
-    Node* middleNode = middle(ll.head);
-    cout<<middleNode->value<<endl;
+    ll.insertAtTail(6);
+    ll.insertAtTail(7);
+    ll.insertAtTail(8);
+    // ll.display();
+    ll.head->next->next->next->next->next->next->next = ll.head->next->next;
+    cout<<linkedListCycle(ll.head)<<endl;
     return 0;
 }
 //Time Complexity: O(n) where n = number of nodes

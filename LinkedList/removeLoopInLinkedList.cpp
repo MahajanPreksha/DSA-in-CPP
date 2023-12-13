@@ -37,14 +37,35 @@ class LinkedList{
         cout<<"NULL"<<endl;
     }
 };
-Node* middle(Node* &head){
+bool linkedListCycle(Node* &head){
+    if(head==NULL){
+        return false;
+    }
     Node* slow = head;
     Node* fast = head;
     while(fast!=NULL && fast->next!=NULL){
         slow = slow->next;
         fast = fast->next->next;
+        if(slow==fast){
+            return true;
+        }
     }
-    return slow;
+    return false;
+}
+void removeCycle(Node* &head){
+    //assuming that the linked list has a cycle
+    Node* slow = head;
+    Node* fast = head;
+    do{
+        slow = slow->next;
+        fast = fast->next->next;
+    } while(slow!=fast);
+    fast = head;
+    while(slow->next!=fast->next){
+        slow = slow->next;
+        fast = fast->next;
+    }
+    slow->next = NULL;
 }
 int main(){
     LinkedList ll;
@@ -53,10 +74,14 @@ int main(){
     ll.insertAtTail(3);
     ll.insertAtTail(4);
     ll.insertAtTail(5);
-    // ll.insertAtTail(6);
+    ll.insertAtTail(6);
+    ll.insertAtTail(7);
+    // ll.display();
+    ll.head->next->next->next->next->next->next->next = ll.head->next->next;
+    cout<<linkedListCycle(ll.head)<<endl;
+    removeCycle(ll.head);
+    cout<<linkedListCycle(ll.head)<<endl;
     ll.display();
-    Node* middleNode = middle(ll.head);
-    cout<<middleNode->value<<endl;
     return 0;
 }
 //Time Complexity: O(n) where n = number of nodes
