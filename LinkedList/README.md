@@ -80,7 +80,7 @@ Time Complexity is O(k) but O(n) in the worst case.
 
 6. [Reverse a Linked List in Groups of Given Size](https://www.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy,Medium,Hard&sortBy=submissions) or [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
-7. Check if Two Linked Lists are Equal or Not
+7. [Identical Linked Lists](https://www.geeksforgeeks.org/problems/identical-linked-lists/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or Check if Two Linked Lists are Equal or Not
 
 8. [Intersection of Two Linked Lists](https://www.geeksforgeeks.org/problems/intersection-of-two-linked-list/1?page=3&category=Linked%20List&sortBy=submissions) or [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
@@ -93,3 +93,15 @@ Time Complexity is O(k) but O(n) in the worst case.
 12. [Merge K Sorted Linked Lists](https://www.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1?page=2&category=Linked%20List&sortBy=submissions) or [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 13. [Finding Middle Element in a Linked List](https://www.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1?page=1&category=Linked%20List&sortBy=submissions) or [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+
+14. [Delete Middle of Linked List](https://www.geeksforgeeks.org/problems/delete-middle-of-linked-list/1?page=2&category=Linked%20List&status=unsolved&sortBy=submissions) or [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
+
+15. [Detect Loop in Linked List](https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+
+16. [Find the First Node of Loop in Linked List](https://www.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+
+17. [Remove Loop in Linked List](https://www.geeksforgeeks.org/problems/remove-loop-in-linked-list/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions)
+
+18. [Check if Linked List is Palindrome](https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+
+19. 
