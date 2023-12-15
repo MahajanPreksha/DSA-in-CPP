@@ -104,4 +104,6 @@ Time Complexity is O(k) but O(n) in the worst case.
 
 18. [Check if Linked List is Palindrome](https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
-19. 
+19. [Rotate a Linked List](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Rotate List](https://leetcode.com/problems/rotate-list/)
+
+20. 
