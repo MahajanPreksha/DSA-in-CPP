@@ -37,20 +37,34 @@ class LinkedList{
         cout<<"NULL"<<endl;
     }
 };
-Node* oddEven(Node* &head){
-    if(!head){
-        return head;
+Node* reorderList(Node* &head){
+    //Find the middle element
+    Node* slow = head;
+    Node* fast = head;
+    while(fast!=NULL && fast->next!=NULL){
+        slow = slow->next;
+        fast = fast->next->next;
     }
-    Node* even_head = head->next;
-    Node* oddptr = head;
-    Node* evenptr = even_head;
-    while(evenptr && evenptr->next){
-        oddptr->next = oddptr->next->next;
-        evenptr->next = evenptr->next->next;
-        oddptr = oddptr->next;
-        evenptr = evenptr->next;
+    //Now slow is pointing towards middle element
+    //Separate the linked list and reverse the second half
+    Node* curr = slow->next;
+    slow->next = NULL;
+    Node* prev = slow;
+    while(curr){
+        Node* nextptr = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = nextptr;
     }
-    oddptr->next = even_head;
+    //Merging the two halves of the linked list
+    Node* ptr1 = head; //linked list first half
+    Node* ptr2 = prev; //linked list second half
+    while(ptr1!=ptr2){
+        Node* temp = ptr1->next;
+        ptr1->next = ptr2;
+        ptr1 = ptr2;
+        ptr2 = temp;
+    }
     return head;
 }
 int main(){
@@ -62,7 +76,7 @@ int main(){
     ll.insertAtTail(5);
     ll.insertAtTail(6);
     ll.display();
-    ll.head = oddEven(ll.head);
+    ll.head = reorderList(ll.head);
     ll.display();
     return 0;
 }

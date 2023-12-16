@@ -37,21 +37,16 @@ class LinkedList{
         cout<<"NULL"<<endl;
     }
 };
-Node* oddEven(Node* &head){
-    if(!head){
+Node* swapPairwise(Node* &head){
+    //base case
+    if(head==NULL || head->next==NULL){
         return head;
     }
-    Node* even_head = head->next;
-    Node* oddptr = head;
-    Node* evenptr = even_head;
-    while(evenptr && evenptr->next){
-        oddptr->next = oddptr->next->next;
-        evenptr->next = evenptr->next->next;
-        oddptr = oddptr->next;
-        evenptr = evenptr->next;
-    }
-    oddptr->next = even_head;
-    return head;
+    //recursive case
+    Node* secondNode = head->next;
+    head->next = swapPairwise(secondNode->next);
+    secondNode->next = head; //reversing the link between first and second node
+    return secondNode;
 }
 int main(){
     LinkedList ll;
@@ -62,7 +57,7 @@ int main(){
     ll.insertAtTail(5);
     ll.insertAtTail(6);
     ll.display();
-    ll.head = oddEven(ll.head);
+    ll.head = swapPairwise(ll.head);
     ll.display();
     return 0;
 }

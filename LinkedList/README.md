@@ -106,10 +106,12 @@ Time Complexity is O(k) but O(n) in the worst case.
 
 19. [Rotate a Linked List](https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Rotate List](https://leetcode.com/problems/rotate-list/)
 
-20. [Segregate Even and Odd Nodes in a Linked List](https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+20. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
-21. [Reorder List](https://www.geeksforgeeks.org/problems/reorder-list/1?page=2&category=Linked%20List&status=unsolved&sortBy=submissions) or [Reorder List](https://leetcode.com/problems/reorder-list/)
+21. [Segregate Even and Odd Nodes in a Linked List](https://www.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) 
 
-22. [Pairwise Swap Elements of a Linked List](https://www.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+22. [Reorder List](https://www.geeksforgeeks.org/problems/reorder-list/1?page=2&category=Linked%20List&status=unsolved&sortBy=submissions) or [Reorder List](https://leetcode.com/problems/reorder-list/)
 
-23. [Merge Sort for Linked List](https://www.geeksforgeeks.org/problems/sort-a-linked-list/1?page=2&category=Linked%20List&status=unsolved&sortBy=submissions) or [Sort List](https://leetcode.com/problems/sort-list/)
+23. [Pairwise Swap Elements of a Linked List](https://www.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+
+24. [Merge Sort for Linked List](https://www.geeksforgeeks.org/problems/sort-a-linked-list/1?page=2&category=Linked%20List&status=unsolved&sortBy=submissions) or [Sort List](https://leetcode.com/problems/sort-list/)
