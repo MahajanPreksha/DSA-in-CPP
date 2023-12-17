@@ -115,3 +115,7 @@ Time Complexity is O(k) but O(n) in the worst case.
 23. [Pairwise Swap Elements of a Linked List](https://www.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 24. [Merge Sort for Linked List](https://www.geeksforgeeks.org/problems/sort-a-linked-list/1?page=2&category=Linked%20List&status=unsolved&sortBy=submissions) or [Sort List](https://leetcode.com/problems/sort-list/)
+
+25. [Decimal Equivalent of Binary Linked List](https://www.geeksforgeeks.org/problems/decimal-equivalent-of-binary-linked-list/1?page=4&category=Linked%20List&sortBy=submissions) or [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
+
+26. 
