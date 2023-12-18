@@ -118,4 +118,4 @@ Time Complexity is O(k) but O(n) in the worst case.
 
 25. [Decimal Equivalent of Binary Linked List](https://www.geeksforgeeks.org/problems/decimal-equivalent-of-binary-linked-list/1?page=4&category=Linked%20List&sortBy=submissions) or [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 
-26. 
+26. [Delete Without Head Pointer](https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
