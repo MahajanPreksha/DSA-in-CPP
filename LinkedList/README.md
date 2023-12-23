@@ -37,6 +37,9 @@ Array: It is a single memory block with partitions.
 
 # Implementation of a Singly Linked List
 
+| val | next |
+| :--- | :--- |
+
 ## Listnode
 
 Listnode is not a built-in datatype. The syntax for a listnode in a singly linked list is as follows:
@@ -67,7 +70,7 @@ Time Complexity is O(k) but O(n) in the worst case.
 2. **At the end:** Time Complexity - O(n)
 3. **At an arbitrary position:** Time Complexity - O(n)
 
-# Linked List Questions
+# Singly Linked List Questions
 1. [Print Linked List Elements](https://www.geeksforgeeks.org/problems/print-linked-list-elements/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions)
 
 2. [Linked List Insertion](https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1?page=1&category=Linked%20List&difficulty=School,Basic,Easy&sortBy=submissions)
@@ -119,3 +122,37 @@ Time Complexity is O(k) but O(n) in the worst case.
 25. [Decimal Equivalent of Binary Linked List](https://www.geeksforgeeks.org/problems/decimal-equivalent-of-binary-linked-list/1?page=4&category=Linked%20List&sortBy=submissions) or [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 
 26. [Delete Without Head Pointer](https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+
+### Advantages of Doubly Linked List over a Singly Linked List
+
+1. Traversal can be done in both ways.
+2. Insertion and deletion become more efficient.
+
+### Disadvantage of Doubly Linked List over a Singly Linked List
+
+- Extra space is being utilised for previous pointer.
+
+# Implementation of a Doubly Linked List
+
+| prev | val | next |
+| :--- | :--- | :--- |
+
+```cpp
+class Node {
+    int val;   // string, bool, object
+    Node* prev;
+    Node* next;
+};
+```
+
+Traversal of doubly linked list: It will be bi-directional.
+- Left to right traversal via head.
+- Right to left traversal via tail.
+
+# Doubly Linked List Operations
+
+## Insertion at kth position
+
+1. **At the start of the head:** Time Complexity - O(1)
+2. **At the end of the list:** Time Complexity - O(1)
+3. **At an arbitrary position:** O(k) or O(n) in worst case
