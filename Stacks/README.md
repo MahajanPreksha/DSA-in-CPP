@@ -45,15 +45,23 @@ int top()
 1. **Overflow**: when capacity defined for stack exceeds by adding more elements
 2. **Underflow**: when you access/remove element from stack which is empty
 
-## Implementation of Stacks:
+# Implementation of Stacks:
 - By using Array
 - By using Linked List
 > Best implementation in O(1)
 
-# Implementation of Stacks using Array
+## Implementation of Stacks using Array
 - Consider a property of top_idx.
 - If top_idx==(-1), we are in the underflow/no elements are added yet. isEmpty() will return true.
 - On pushing an element, top_idx++ and arr[top_idx] = element.
 - On popping an element, top_idx--. arr[top_idx] = top element.
 - isFull() will return true if top_idx==arr.size()-1. If we try to push an element, we will be in the overflow.
 - size() = top_idx + 1
+
+## Implementation of Stacks using Linked List
+
+# Stack Questions
+
+1. [Implement Stack using Arrays](https://www.geeksforgeeks.org/problems/implement-stack-using-array/1?page=1&category=Stack&difficulty=School,Basic&sortBy=submissions)
+
+2. [Implement Stack using Linked List](https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1?page=1&category=Stack&sortBy=submissions)
