@@ -59,9 +59,22 @@ int top()
 - size() = top_idx + 1
 
 ## Implementation of Stacks using Linked List
+- Consider node of the linked list as element of the stack.
+- Head of the linked list acts as the top of the stack.
+- Consider a variable curr_size that stores the current size of the linked list.
+- if(this->head==NULL), we are in the underflow/no elements are added yet. isEmpty() will return true.
+- On pushing an element, new_node will point to the head of the linked list, new_node will be the head of the linked list and curr_size++;
+- On popping an element, head variable will point to the second element of the linked list and value of removed node will be returned.
+- isFull() will return true if this->curr_size==this->capacity. If we try to push an element, we will be in the overflow.
+- size() = curr_size;
+
+> By default, stack in implemented in C++ using deque.
+> It can also be implemented by a list or vector.
 
 # Stack Questions
 
 1. [Implement Stack using Arrays](https://www.geeksforgeeks.org/problems/implement-stack-using-array/1?page=1&category=Stack&difficulty=School,Basic&sortBy=submissions)
 
 2. [Implement Stack using Linked List](https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1?page=1&category=Stack&sortBy=submissions)
+
+3. [Clone a Stack Without Using Extra Space](https://www.geeksforgeeks.org/problems/clone-a-stack-without-usinig-extra-space/1)
