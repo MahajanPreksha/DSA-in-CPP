@@ -78,3 +78,7 @@ int top()
 2. [Implement Stack using Linked List](https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1?page=1&category=Stack&sortBy=submissions)
 
 3. [Clone a Stack Without Using Extra Space](https://www.geeksforgeeks.org/problems/clone-a-stack-without-usinig-extra-space/1)
+
+4. [Insert an Element at the Bottom of a Stack](https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1?page=2&category=Stack&difficulty=School,Basic,Easy&status=unsolved&sortBy=submissions)
+
+5. 
