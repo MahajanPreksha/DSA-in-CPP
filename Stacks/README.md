@@ -81,4 +81,4 @@ int top()
 
 4. [Insert an Element at the Bottom of a Stack](https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1?page=2&category=Stack&difficulty=School,Basic,Easy&status=unsolved&sortBy=submissions)
 
-5. 
+5. [Reverse a Stack](https://www.geeksforgeeks.org/problems/reverse-a-stack/1?page=1&category=Stack&difficulty=School,Basic,Easy,Medium,Hard&status=unsolved&sortBy=submissions)
