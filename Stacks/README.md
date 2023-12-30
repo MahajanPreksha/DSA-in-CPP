@@ -85,10 +85,12 @@ int top()
 
 6. [Parenthesis Checker](https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-7. [Next Greater Element](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+7. [Next Greater Element](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Next Greater Element](https://www.geeksforgeeks.org/problems/next-greater-element/1?page=3&category=Stack&sortBy=submissions) or [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
 
-8. [Stock Span Problem](https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Online Stock Span](https://leetcode.com/problems/online-stock-span/)
+8. [Smallest Number on Left](https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1?page=2&category=Stack&sortBy=submissions)
 
-9. [Maximum Rectangular Area in a Histogram](https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+9. [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)
 
-10. 
+10. [Stock Span Problem](https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Online Stock Span](https://leetcode.com/problems/online-stock-span/)
+
+11. [Maximum Rectangular Area in a Histogram](https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
