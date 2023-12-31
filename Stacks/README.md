@@ -77,20 +77,26 @@ int top()
 
 2. [Implement Stack using Linked List](https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1?page=1&category=Stack&sortBy=submissions)
 
-3. [Clone a Stack Without Using Extra Space](https://www.geeksforgeeks.org/problems/clone-a-stack-without-usinig-extra-space/1)
+3. [Stack designer](https://www.geeksforgeeks.org/problems/stack-designer/1?page=2&category=Stack&status=unsolved&sortBy=submissions)
 
-4. [Insert an Element at the Bottom of a Stack](https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1?page=2&category=Stack&difficulty=School,Basic,Easy&status=unsolved&sortBy=submissions)
+4. [Pairwise Consecutive Elements](https://www.geeksforgeeks.org/problems/pairwise-consecutive-elements/1?page=1&category=Stack&difficulty=School,Basic&status=unsolved&sortBy=submissions)
 
-5. [Reverse a Stack](https://www.geeksforgeeks.org/problems/reverse-a-stack/1?page=1&category=Stack&difficulty=School,Basic,Easy,Medium,Hard&status=unsolved&sortBy=submissions)
+5. [Clone a Stack Without Using Extra Space](https://www.geeksforgeeks.org/problems/clone-a-stack-without-usinig-extra-space/1)
 
-6. [Parenthesis Checker](https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+6. [Insert an Element at the Bottom of a Stack](https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1?page=2&category=Stack&difficulty=School,Basic,Easy&status=unsolved&sortBy=submissions)
 
-7. [Next Greater Element](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Next Greater Element](https://www.geeksforgeeks.org/problems/next-greater-element/1?page=3&category=Stack&sortBy=submissions) or [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
+7. [Reverse a Stack](https://www.geeksforgeeks.org/problems/reverse-a-stack/1?page=1&category=Stack&difficulty=School,Basic,Easy,Medium,Hard&status=unsolved&sortBy=submissions)
 
-8. [Smallest Number on Left](https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1?page=2&category=Stack&sortBy=submissions)
+8. [Parenthesis Checker](https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-9. [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)
+9. [Next Greater Element](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Next Greater Element](https://www.geeksforgeeks.org/problems/next-greater-element/1?page=3&category=Stack&sortBy=submissions) or [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)
 
-10. [Stock Span Problem](https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Online Stock Span](https://leetcode.com/problems/online-stock-span/)
+10. [Smallest Number on Left](https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1?page=2&category=Stack&sortBy=submissions)
 
-11. [Maximum Rectangular Area in a Histogram](https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+11. [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)
+
+12. [Stock Span Problem](https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Online Stock Span](https://leetcode.com/problems/online-stock-span/)
+
+13. [Maximum Rectangular Area in a Histogram](https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+14. [Special Stack](https://www.geeksforgeeks.org/problems/special-stack/1?page=1&category=Stack&difficulty=School,Basic,Easy&status=unsolved&sortBy=submissions) or [Min Stack](https://leetcode.com/problems/min-stack/)
