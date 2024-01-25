@@ -17,3 +17,26 @@
 
 4. Multiplication Method: h(k) = floor(M(kA mod 1)) where 0 < A < 1 and M is the size of the hash table
 
+# Collisions in Hashing
+- When 2 elements have same hash value, then a collision is said to have occurred.
+To handle collisions, there are two ways:
+(1) Open Hashing
+(2) Closed Hashing
+
+## Open Hashing or Closed Addressing
+- Method that handles collisions is called Separate Chaining.
+- In every bucket, we will store values with same hash value using Linked List.
+- Time Complexity of Search: O(l) where l = length of the list
+- Due to the chain being made, this method is called Separate Chaining.
+
+### Advantages:
+- It is simple to implement.
+- We use this method when we don't know the frequency of elements to be added.
+- The table will never be entirely filled.
+
+### Disadvantages:
+- There will be some values/buckets that won't get filled. 
+- If all values come in one bucket, time complexity will increase to O(n).
+
+## Closed Hashing or Open Addressing
+(1) Linear Probing: (h(k) + i) mod 10 where 0 <= i <= 9
