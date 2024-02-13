@@ -40,3 +40,24 @@ To handle collisions, there are two ways:
 
 ## Closed Hashing or Open Addressing
 (1) Linear Probing: (h(k) + i) mod 10 where 0 <= i <= 9
+Value of i changes conditionally.
+
+#### Disadvantages:
+- Clusters might be created in linear probing.
+
+(2) Quadratic Probing: (h(k) + i*i) mod 10 where 0 <= i <= ,M and M = size of hash table
+
+(3) Double Hashing: Two hash functions are used; (h1(k) + i * h2(k)) mod M where 0 <= i <= M
+It is more complex than other methods.
+
+# Load Factor
+- Load factor gives the average number of entries in one bucket.
+- If n = number of elements and m = number of buckets, then
+>> Load Factor = n/m
+- Load factor should be a low value as search would become inefficient.
+- If the limit of load factor (which is 0.75) crosses, we focus on Rehashing.
+
+# Rehashing
+- Increasing size of hash table and redistributing elements in it is called rehashing.
+- It is a very costly operation as we need to create a new hash table and find new hash values.
+- But it is an important step to avoid collisions and reduce time complexity to O(1).
