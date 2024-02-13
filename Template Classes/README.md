@@ -152,3 +152,72 @@ unordered_set<int> set1 = {1, 2, 3, 4};
 1. [Sum the Common Elements](https://www.geeksforgeeks.org/problems/sum-the-common-elements/1?page=1&category=STL,set&difficulty=School,Basic,Easy&status=unsolved&sortBy=difficulty)
 
 2. [Pangram Strings](https://www.geeksforgeeks.org/problems/pangram-strings3155/1?page=1&category=Data%20Structures,Strings&difficulty=Easy) or [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
+
+---
+
+# Map
+- Map is an STL Container which stores key-value pairs.
+- The elements (i.e. key-value pairs) are stored in ascending or descending order.
+- Maps can't have duplicate keys i.e. keys are unique.
+- Maps in C++ are implemented through Binary Search Tree.
+
+### Declaration and Initialisation
+```cpp
+#include<map> //header file required
+//map<datatype_of_key, datatype_of_value> map_name = {{key1, value1}, {key2, value2}};
+map<string, int> phone_dir = {{"Naman", 1234}, {"Aman", 2345}};
+```
+>> By default, order is ascending.
+
+For descending order-
+```cpp
+//map<datatype_of_key, datatype_of_value, greater<datatype_of_key>> map_name;
+```
+
+### Insertion
+```cpp
+phone_dir.insert(make_pair("ABC", 4567));
+//or
+phone_dir["ABC"] = 4567;
+```
+
+### Printing Elements
+- Using for each loop
+```cpp
+/*for(auto element:map_name){
+    key = element.first;
+    value = element.second
+}*/
+//Here element is a key-value pair.
+```
+
+### Member Functions in a Map
+1. erase(): delete some elements from map
+- m_name.erase(it) --> using iterator (used to traverse our STL Container)
+- m.erase(key)
+- m.erase(start_itr, end_itr) --> key-value pair at end_itr doesn't get deleted
+Time Complexity: O(log N), O(log N), O(N)
+2. swap(): swap two maps of same type
+- m1.swap(m2)
+- swap(m1, m2)
+3. clear(): delete all elements from map
+- m.clear()
+4. empty(): returns 1 if empty, otherwise 0
+- m.empty()
+5. size(): returns number of key-value pairs
+- m.size()
+6. max_size(): Space allocated to map in memory
+- m.max_size()
+7. find(): returns iterator to the element if present, else returns m.end() iterator
+- m.find(key)
+Time Complexity: O(log N)
+8. count(): returns number of occurrences of key
+- m.count(key)
+- It will return 1 if key is present as keys are unique.
+9. upper_bound(): returns an iterator to the next greater element
+- m.upper_bound()
+10. lower_bound(): returns iterator to the element if present, else iterator to the next greater element
+- m.lower_bount()
+11. begin(): returns iterator to the first element
+
+>> Maps are dynamic containers, like: lists, vectors, etc.
