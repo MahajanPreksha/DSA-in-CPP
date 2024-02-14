@@ -157,6 +157,7 @@ unordered_set<int> set1 = {1, 2, 3, 4};
 
 # Map
 - Map is an STL Container which stores key-value pairs.
+- A map is used to make a solution efficient.
 - The elements (i.e. key-value pairs) are stored in ascending or descending order.
 - Maps can't have duplicate keys i.e. keys are unique.
 - Maps in C++ are implemented through Binary Search Tree.
@@ -191,7 +192,7 @@ phone_dir["ABC"] = 4567;
 //Here element is a key-value pair.
 ```
 
-### Member Functions in a Map
+### Other Member Functions in a Map
 1. erase(): delete some elements from map
 - m_name.erase(it) --> using iterator (used to traverse our STL Container)
 - m.erase(key)
@@ -219,5 +220,169 @@ Time Complexity: O(log N)
 10. lower_bound(): returns iterator to the element if present, else iterator to the next greater element
 - m.lower_bount()
 11. begin(): returns iterator to the first element
+- m.begin()
+12. end(): returns iterator to the position after the last element
+- m.end()
+13. rbegin(): returns iterator to the first element in reverse order
+- m.rbegin()
+14. rend(): returns iterator to the position after the last element in reverse order
+- m.rend()
 
 >> Maps are dynamic containers, like: lists, vectors, etc.
+
+## Unordered Map
+- It is an STL container that stores key-value pairs.
+- Elements are not ordered in an unordered map.
+- Keys will be unique.
+- Insertion, Deletion and Retrieval/Search are done in O(1).
+- Unordered map is implemented using Hashing.
+
+### Declaration and Initialisation
+```cpp
+#include<unordered_map> //header file required
+//unordered_map<datatype_of_key, datatype_of_value> map_name = {{key1, value1}, {key2, value2}};
+```
+
+### Printing Elements
+- Using for each loop
+```cpp
+/*for(auto element:map_name){
+    key = element.first;
+    value = element.second
+}*/
+//Here element is a key-value pair.
+```
+
+### Other Member Functions in an Unordered Map
+1. erase(): delete some elements from map
+- m_name.erase(it)
+- m.erase(key)
+- m.erase(start_itr, end_itr)
+Time Complexity in any case: O(1)
+Time Complexity in worst case: O(n)
+2. insert(): insert elements into the map
+- m.insert(make_pair(key, value))
+Time Complexity in any case: O(1)
+Time Complexity in worst case: O(n)
+3. find(): returns iterator to the element if present, else returns m.end() iterator
+- m.find(key)
+Time Complexity in any case: O(1)
+Time Complexity in worst case: O(n)
+4. count(): returns number of occurrences of key
+- m.count(key)
+- It will return 1 if key is present as keys are unique.
+5. begin(): returns iterator to the first element
+- m.begin()
+6. end(): returns iterator to the position after the last element
+- m.end()
+
+## Multimap
+- It is an STL container that stores key-value pairs.
+- Elements are stored in an order - ascending or descending.
+- Duplicate keys are allowed.
+- Multimap is implemented using Binary Search Tree.
+- Insertion, Deletion and Retrieval/Search are done in O(log N).
+
+### Declaration and Initialisation
+```cpp
+#include<map> //header file required
+//multimap<datatype_of_key, datatype_of_value> map_name = {{key1, value1}, {key2, value2}};
+```
+For descending order-
+```cpp
+//map<datatype_of_key, datatype_of_value, greater<datatype_of_key>> map_name;
+```
+
+### Insertion
+```cpp
+phone_dir.insert(make_pair("ABC", 4567));
+```
+
+### Printing Elements
+- Using for each loop
+```cpp
+/*for(auto element:map_name){
+    key = element.first;
+    value = element.second
+}*/
+//Here element is a key-value pair.
+```
+
+### Other Member Functions in a  Multimap
+1. erase(): delete some elements from map
+- m_name.erase(it)
+- m.erase(key)
+- m.erase(start_itr, end_itr)
+Time Complexity: O(log N), O(log N), O(N)
+2. insert(): insert elements into the map
+- m.insert(make_pair(key, value))
+Time Complexity: O(log N)
+3. find(): returns iterator to the element if present, else returns m.end() iterator
+- m.find(key)
+Time Complexity: O(log N)
+4. count(): returns number of occurrences of key
+- m.count(key)
+5. begin(): returns iterator to the first element
+- m.begin()
+6. end(): returns iterator to the position after the last element
+- m.end()
+7. equal_range(): returns bounds of range of elements with keys passed
+- m.equal_range()
+
+## Unordered Multimap
+- It is an STL container that stores key-value pairs.
+- Elements are not stored in an ordered way.
+- Duplicate keys are allowed.
+- Multimap is implemented using Hashing.
+- Insertion, Deletion and Retrieval/Search are done in O(1) in average case and O(N) in worst case.
+
+### Declaration and Initialisation
+```cpp
+#include<unordered_map> //header file required
+//unordered_multimap<datatype_of_key, datatype_of_value> map_name = {{key1, value1}, {key2, value2}};
+```
+For descending order-
+```cpp
+//unordered_multimap<datatype_of_key, datatype_of_value, greater<datatype_of_key>> map_name;
+```
+
+### Insertion
+```cpp
+phone_dir.insert(make_pair("ABC", 4567));
+```
+
+### Printing Elements
+- Using for each loop
+```cpp
+/*for(auto element:map_name){
+    key = element.first;
+    value = element.second
+}*/
+//Here element is a key-value pair.
+```
+
+### Other Member Functions in an Unordered Multimap
+1. erase(): delete some elements from map
+- m_name.erase(it)
+- m.erase(key)
+- m.erase(start_itr, end_itr)
+Time Complexity: O(1), O(1), O(N)
+2. insert(): insert elements into the map
+- m.insert(make_pair(key, value))
+Time Complexity: O(1)
+3. find(): returns iterator to the element if present, else returns m.end() iterator
+- m.find(key)
+Time Complexity: O(1)
+4. count(): returns number of occurrences of key
+- m.count(key)
+Time Complexity: O(N) where N = Number of occurrences
+5. begin(): returns iterator to the first element
+- m.begin()
+6. end(): returns iterator to the position after the last element
+- m.end()
+
+>> Summary:
+>> Ordered + Unique Keys: Map
+>> Not ordered + Unique Keys: Unordered Map
+>> Not ordered + Duplicate Keys: Unordered Multimap
+>> Ordered + Duplicate Keys: Multimap
