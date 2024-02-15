@@ -386,3 +386,8 @@ Time Complexity: O(N) where N = Number of occurrences
 >> Not ordered + Unique Keys: Unordered Map
 >> Not ordered + Duplicate Keys: Unordered Multimap
 >> Ordered + Duplicate Keys: Multimap
+
+## Map Questions
+1. [Anagram](https://www.geeksforgeeks.org/problems/anagram-1587115620/1?page=3&sortBy=submissions) or [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+
+2. [Isomorphic Strings](https://www.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1) or [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
