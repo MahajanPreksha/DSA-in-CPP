@@ -147,12 +147,103 @@ By default, values are stored in increasing order.
 unordered_set<int> set1 = {1, 2, 3, 4};
 ```
 
+### Other Member Functions of an Unordered Set
+1. insert(): inserts elements in a set
+- s.insert(value)
+Time Complexity in case of single element: O(1) in average case and O(N) in worst case (when size>=capacity)
+Time Complexity in case of multiple elements: O(n) in average case where n = number of elements being inserted and O(n*(N+1)) in worst case where n = number of elements being inserted and N = size of unordered set
+2. erase(): deletes elements from a set
+- s.erase(value)
+- s.erase(iterator)
+- s.erase(start_itr, end_itr)
+Time Complexity in case of single element: O(1) in average case and O(N) in worst case (when size>=capacity)
+Time Complexity in case of multiple elements: O(n) in average case where n = number of elements being deleted and O(n*(N+1)) in worst case where n = number of elements being deleted and N = size of unordered set
+3. find(): returns value of element if present, else returns end iterator
+- s.find(ele)
+Time Complexity: O(1) in average case and O(N) in worst case
+4. count(): returns number of occurrences of an element, returns 1 if value is present, else returns 0
+- s.count(ele)
+Time Complexity: O(1) in average case and O(N) in worst case
+5. load_factor(): returns value of (size of unordered set/bucket count)
+6. rehash(x): sets the number of buckets to x or more
+Time Complexity: O(N) in average case and O(N*N) in worst case
+
+## Multiset
+- Multiset can store duplicate values.
+- It stores values in ordered manner (ascending/descending).
+- Value will be identified by itself.
+- Value can't be modified in multiset.
+
+### Declaration and Initialisation
+```cpp
+#include<set>
+// multiset<data_type> set_name;
+set<int> set1 = {1, 2, 3, 4};
+// multiset<datatype, greater<datatype>> set_name; --> for decreasing order
+```
+
+### Other Member Functions of a Multiset
+1. insert(): inserts elements in a set
+- s.insert(value)
+Time Complexity: O(log N)
+2. erase(): deletes elements from a set
+- s.erase(value) --> removes all duplicate values as well
+- s.erase(iterator)
+- s.erase(start_itr, end_itr)
+Time Complexity: O(log N), O(log N) and O(N)
+3. find(): returns lower bound of element searched if found, else returns end iterator
+- s.find(ele)
+Time Complexity: O(log N)
+4. count(): returns number of occurrences of an element
+- s.count(ele)
+Time Complexity: O(k + log N)
+5. lower_bound(): returns iterator pointing to first occurrence of value if present, else returns next greater value
+- s.lower_bound()
+Time Complexity: O(log N)
+6. upper_bound(): returns the position of next greater value
+- s.upper_bound()
+Time Complexity: O(log N)
+
+## Unordered Multiset
+- Unordered Multiset can store duplicate values.
+- It stores values in an unordered manner.
+- Value will be identified by itself.
+- Values can't be modified in unordered multiset.
+- It is implemented using Hashing.
+
+### Declaration and Initialisation
+```cpp
+#include<unordered_set>
+// unordered_multiset<data_type> set_name;
+unordered_multiset<int> set1 = {1, 2, 3, 4};
+```
+
+### Other Member Functions of an Unordered Multiset
+1. insert(): inserts elements in a set
+- s.insert(value)
+Time Complexity in case of single element: O(1) in average case and O(N) in worst case (when size>=capacity)
+Time Complexity in case of multiple elements: O(n) in average case where n = number of elements being inserted and O(n*(N+1)) in worst case where n = number of elements being inserted and N = size of unordered multiset
+2. erase(): deletes elements from a set
+- s.erase(value) --> removes all duplicate values as well
+- s.erase(iterator)
+- s.erase(start_itr, end_itr)
+Time Complexity: O(1) in average case and O(N) in worst case (when size>=capacity)
+3. find(): returns lower bound of element searched if found, else returns end iterator
+- s.find(ele)
+Time Complexity: O(1) in average case and O(N) in worst case (when size>=capacity)
+4. count(): returns number of occurrences of an element
+- s.count(ele)
+Time Complexity: O(n) in average case where n = number of occurrences and O(N) in worst case where N = size of unordered multiset
+
 ## Set Questions
 
 1. [Sum the Common Elements](https://www.geeksforgeeks.org/problems/sum-the-common-elements/1?page=1&category=STL,set&difficulty=School,Basic,Easy&status=unsolved&sortBy=difficulty)
 
 2. [Pangram Strings](https://www.geeksforgeeks.org/problems/pangram-strings3155/1?page=1&category=Data%20Structures,Strings&difficulty=Easy) or [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
 
+3. [Find the smallest and second smallest element in an array](https://www.geeksforgeeks.org/problems/find-the-smallest-and-second-smallest-element-in-an-array3226/1)
+
+4. [Second Largest](https://www.geeksforgeeks.org/problems/second-largest3735/1)
 ---
 
 # Map
