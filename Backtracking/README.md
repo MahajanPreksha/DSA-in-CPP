@@ -7,4 +7,4 @@
 ## Backtracking Questions
 1. [String Permutations](https://www.geeksforgeeks.org/problems/permutations-of-a-given-string-1587115620/1)
 
-2. []()
+2. [N-Queen Problem](https://www.geeksforgeeks.org/problems/n-queen-problem0315/1) or [N-Queens](https://leetcode.com/problems/n-queens/description/)

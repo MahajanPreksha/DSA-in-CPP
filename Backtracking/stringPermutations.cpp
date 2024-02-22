@@ -20,3 +20,4 @@ int main(){
 }
 //Rearrangement problems form the base of Backtracking.
 //Time Complexity: O(n!)
+//Space Complexity: O(n)
