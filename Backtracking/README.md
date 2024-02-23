@@ -7,4 +7,8 @@
 ## Backtracking Questions
 1. [String Permutations](https://www.geeksforgeeks.org/problems/permutations-of-a-given-string-1587115620/1)
 
-2. [N-Queen Problem](https://www.geeksforgeeks.org/problems/n-queen-problem0315/1) or [N-Queens](https://leetcode.com/problems/n-queens/description/)
+2. [Rat in a Maze Problem - I](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
+
+3. [N-Queen Problem](https://www.geeksforgeeks.org/problems/n-queen-problem0315/1) or [N-Queens](https://leetcode.com/problems/n-queens/description/)
+
+4. [N-Queens II](https://leetcode.com/problems/n-queens-ii)
