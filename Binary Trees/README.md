@@ -84,3 +84,9 @@ It uses queue that follows FIFO.
 6. [Level order traversal](https://www.geeksforgeeks.org/problems/level-order-traversal/1?page=2&category=Tree&difficulty=School,Basic,Easy,Medium,Hard&sortBy=difficulty) or [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)
 
 7. [Maximum Depth Of Binary Tree](https://www.geeksforgeeks.org/problems/maximum-depth-of-binary-tree/1?page=4&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty) or [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
+
+8. [Count Leaves in Binary Tree](https://www.geeksforgeeks.org/problems/count-leaves-in-binary-tree/1?page=1&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty)
+
+9. [Count Non-Leaf Nodes in Tree](https://www.geeksforgeeks.org/problems/count-non-leaf-nodes-in-tree/1?page=1&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty)
+
+10. [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/description/)
