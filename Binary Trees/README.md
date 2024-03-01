@@ -95,6 +95,16 @@ It uses queue that follows FIFO.
 
 12. [Sum of Right Leaf Nodes](https://www.geeksforgeeks.org/problems/sum-of-right-leaf-nodes/1?page=3&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty)
 
-13. [Right View of Binary Tree](https://www.geeksforgeeks.org/problems/right-view-of-binary-tree/1?page=1&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty) or [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+13. [Height of Binary Tree](https://www.geeksforgeeks.org/problems/height-of-binary-tree/1?page=1&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty)
 
-14. [Top View of Binary Tree](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1?page=6&category=Tree&difficulty=School,Basic,Easy,Medium&sortBy=difficulty)
+14. [Right View of Binary Tree](https://www.geeksforgeeks.org/problems/right-view-of-binary-tree/1?page=1&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty) or [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+
+15. [Top View of Binary Tree](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1?page=6&category=Tree&difficulty=School,Basic,Easy,Medium&sortBy=difficulty)
+
+16. [Left View of Binary Tree](https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1?page=2&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty)
+
+17. [Bottom View of Binary Tree](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1?page=5&category=Tree&difficulty=School,Basic,Easy,Medium&sortBy=difficulty)
+
+18. [Reverse Level Order Traversal](https://www.geeksforgeeks.org/problems/reverse-level-order-traversal/1?page=2&category=Tree&difficulty=School,Basic,Easy,Medium&sortBy=difficulty) or [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)
+
+19. [Diameter of Binary Tree](https://www.geeksforgeeks.org/problems/diameter-of-binary-tree/1?page=5&category=Tree&difficulty=School,Basic,Easy,Medium&sortBy=difficulty) or [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)
