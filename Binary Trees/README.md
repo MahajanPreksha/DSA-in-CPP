@@ -90,3 +90,11 @@ It uses queue that follows FIFO.
 9. [Count Non-Leaf Nodes in Tree](https://www.geeksforgeeks.org/problems/count-non-leaf-nodes-in-tree/1?page=1&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty)
 
 10. [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/description/)
+
+11. [Sum of Left Leaf Nodes](https://www.geeksforgeeks.org/problems/sum-of-left-leaf-nodes/1?page=3&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty) or [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)
+
+12. [Sum of Right Leaf Nodes](https://www.geeksforgeeks.org/problems/sum-of-right-leaf-nodes/1?page=3&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty)
+
+13. [Right View of Binary Tree](https://www.geeksforgeeks.org/problems/right-view-of-binary-tree/1?page=1&category=Tree&difficulty=School,Basic,Easy&sortBy=difficulty) or [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)
+
+14. [Top View of Binary Tree](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1?page=6&category=Tree&difficulty=School,Basic,Easy,Medium&sortBy=difficulty)
