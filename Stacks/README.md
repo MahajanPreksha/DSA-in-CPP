@@ -71,6 +71,20 @@ int top()
 > By default, stack in implemented in C++ using deque.
 > It can also be implemented by a list or vector.
 
+#### Infix Expressions
+- operand_1 operator operand_2 --> Infix Expressions
+- Example: a + b - c
+
+#### Postfix Expressions
+- Also called **Reverse Polish Notation**
+- operand_1 operand_2 operator --> Postfix Expressions
+- Example: a b c d + - + * 
+
+#### Prefix Expressions
+- Also called **Polish Notation**
+- operator operand_1 operand_2 --> Prefix Expressions
+- Example: + - a b c
+
 # Stack Questions
 
 1. [Implement Stack using Arrays](https://www.geeksforgeeks.org/problems/implement-stack-using-array/1?page=1&category=Stack&difficulty=School,Basic&sortBy=submissions)
@@ -100,3 +114,7 @@ int top()
 13. [Maximum Rectangular Area in a Histogram](https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1?page=1&category=Stack&status=unsolved&sortBy=submissions) or [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 14. [Special Stack](https://www.geeksforgeeks.org/problems/special-stack/1?page=1&category=Stack&difficulty=School,Basic,Easy&status=unsolved&sortBy=submissions) or [Min Stack](https://leetcode.com/problems/min-stack/)
+
+15. [Evaluation of Postfix Expression](https://www.geeksforgeeks.org/problems/evaluation-of-postfix-expression1735/1?page=1&category=Stack&difficulty=School,Basic,Easy&sortBy=submissions)
+
+16. [Prefix to Postfix Conversion](https://www.geeksforgeeks.org/problems/prefix-to-postfix-conversion/0)
