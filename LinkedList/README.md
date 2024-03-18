@@ -1,47 +1,38 @@
 # Introduction
-
-Linked List: It is a linear data structure used to store a list of values. These are memory blocks linked to each other.
-
-Array: It is a single memory block with partitions.
+- Linked List: It is a linear data structure used to store a list of values. These are memory blocks linked to each other.
+- Array: It is a single memory block with partitions.
 
 # Array vs Linked List
-
 ## Array
-
 - It is a single memory block with partitions.
 
 ### Challenges of Array
-
 1. **Static size:** We cannot increase/decrease the size of the array.
 2. **Contiguous memory allocation:** There should be a single block of memory which is contiguous.
 3. **Insertion and deletion are costly.** (O(n))
 
 ## Linked List
-
-- Blocks of memory are called nodes.
+- Blocks of memory are called nodes/listnodes.
 - A node is divided into two parts: Data and Next Pointer.
 - Head pointer points to the first node and gives the entire linked list.
 - Last node's next field stores NULL, also called the Tail Node.
 
 ### Advantages of Linked List
-
 1. **Dynamic size:** We can easily increase/decrease elements.
 2. **Non-contiguous memory allocation.**
 3. **Insertion and deletion are inexpensive.** (Only linking needs to be changed.)
 
 ### Types of Linked Lists
-
 - (a) **Singly linked list:** Every node points to its successor node.
 - (b) **Doubly linked list:** Every node is connected to its previous and next node.
 - (c) **Circular linked list:** The last node will point to the head node.
 
+> Singly Linked List
 # Implementation of a Singly Linked List
-
 | val | next |
 | :--- | :--- |
 
 ## Listnode
-
 Listnode is not a built-in datatype. The syntax for a listnode in a singly linked list is as follows:
 
 ```cpp
@@ -55,17 +46,14 @@ Traversal of linked list: Head can help to access the entire linked list.
 # Singly Linked List Operations
 
 ## Insertion at kth position
-
 1. **At the start of the head:** Time Complexity - O(1)
 2. **At the end of the list:** Time Complexity - O(n) [If tail pointer is passed, then O(1)]
 3. **At an arbitrary position:** O(k) or O(n) in worst case
 
 ## Updation at kth position
-
 Time Complexity is O(k) but O(n) in the worst case.
 
 ## Deletion at kth position
-
 1. **At the start:** Time Complexity - O(1)
 2. **At the end:** Time Complexity - O(n)
 3. **At an arbitrary position:** Time Complexity - O(n)
@@ -123,17 +111,15 @@ Time Complexity is O(k) but O(n) in the worst case.
 
 26. [Delete Without Head Pointer](https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1?page=1&category=Linked%20List&status=unsolved&sortBy=submissions) or [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
+> Doubly Linked List
 ### Advantages of Doubly Linked List over a Singly Linked List
-
 1. Traversal can be done in both ways.
 2. Insertion and deletion become more efficient.
 
 ### Disadvantage of Doubly Linked List over a Singly Linked List
-
 - Extra space is being utilised for previous pointer.
 
 # Implementation of a Doubly Linked List
-
 | prev | val | next |
 | :--- | :--- | :--- |
 
@@ -152,7 +138,6 @@ Traversal of doubly linked list: It will be bi-directional.
 # Doubly Linked List Operations
 
 ## Insertion at kth position
-
 1. **At the start of the head:** Time Complexity - O(1)
 2. **At the end of the list:** Time Complexity - O(1)
 3. **At an arbitrary position:** O(k) or O(n) in worst case
