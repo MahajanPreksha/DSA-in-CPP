@@ -36,4 +36,6 @@
 ## BST Questions:
 1. [Insert a node in a BST](https://www.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1?page=1&category=Binary%20Search%20Tree&sortBy=submissions) or [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)
 
-2. 
+2. [Search a node in BST](https://www.geeksforgeeks.org/problems/search-a-node-in-bst/1?page=1&category=Binary%20Search%20Tree&sortBy=submissions) or [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)
+
+3. [Minimum element in BST](https://www.geeksforgeeks.org/problems/minimum-element-in-bst/1?page=1&category=Binary%20Search%20Tree&sortBy=difficulty)

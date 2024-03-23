@@ -17,6 +17,20 @@ class BST{
         root = NULL;
     }
 };
+bool searchInBST(Node* root, int key){
+    if(root==NULL){
+        return false;
+    }
+    if(root->value==key){
+        return true;
+    }
+    if(root->value<key){
+        return searchInBST(root->right, key);
+    }
+    if(root->value>key){
+        return searchInBST(root->left, key);
+    }
+}
 Node* insertIntoBST(Node* &root, int val){
     Node* new_node = new Node(val);
     if(root==NULL){ //If BST is empty
@@ -48,7 +62,8 @@ int main(){
     insertIntoBST(bst1.root, 4);
     insertIntoBST(bst1.root, 6);
     insertIntoBST(bst1.root, 2);
-    inorderTraversal(bst1.root);
+    cout<<searchInBST(bst1.root, 8)<<endl; //Print 0
+    cout<<searchInBST(bst1.root, 1); //Print 1
     return 0;
 }
 //Time Complexity: O(log n) in average case
