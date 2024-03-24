@@ -33,6 +33,13 @@
 2. Breadth First Search (BFS):
 (a) Level order Traversal
 
+## Deletion of node in BST
+1. Node with 0 Child (Leaf Node)
+2. Node with 1 Child
+3. Node with 2 Children
+
+
+
 ## BST Questions:
 1. [Insert a node in a BST](https://www.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1?page=1&category=Binary%20Search%20Tree&sortBy=submissions) or [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/)
 
