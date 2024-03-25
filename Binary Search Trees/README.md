@@ -53,4 +53,6 @@
 
 7. [Predecessor and Successor](https://www.geeksforgeeks.org/problems/predecessor-and-successor/1?page=1&category=Binary%20Search%20Tree&sortBy=submissions) or [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst)
 
-8. [Check for BST](https://www.geeksforgeeks.org/problems/check-for-bst/1?page=1&category=Binary%20Search%20Tree&sortBy=submissions)
+8. [Check for BST](https://www.geeksforgeeks.org/problems/check-for-bst/1?page=1&category=Binary%20Search%20Tree&sortBy=submissions) or [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
+
+9. [Inorder Traversal and BST](https://www.geeksforgeeks.org/problems/inorder-traversal-and-bst5855/1?page=1&category=Binary%20Search%20Tree&sortBy=difficulty)
