@@ -56,3 +56,5 @@
 8. [Check for BST](https://www.geeksforgeeks.org/problems/check-for-bst/1?page=1&category=Binary%20Search%20Tree&sortBy=submissions) or [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
 
 9. [Inorder Traversal and BST](https://www.geeksforgeeks.org/problems/inorder-traversal-and-bst5855/1?page=1&category=Binary%20Search%20Tree&sortBy=difficulty)
+
+10. [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)
