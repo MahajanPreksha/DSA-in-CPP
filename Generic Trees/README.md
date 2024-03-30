@@ -10,7 +10,7 @@ class Node{
 };
 ```
 > If any node's children.size()==0, it means that node is a leaf node.
-> If any node's children.size()==N, it means that node has N children.
+> If any node's children.size()==N, it means that node has N children nodes.
 
 ## Traversals in Generic Trees
 1. Depth First Search (DFS)
@@ -35,3 +35,12 @@ c. Postorder Traversal:
 2. BFS
 a. Level order Traversal
 - Use queue data structure that follows FIFO
+
+## Generic Trees Questions
+1. [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)
+
+2. [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)
+
+3. [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)
+
+4. [Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/description/)
