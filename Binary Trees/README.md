@@ -108,3 +108,17 @@ It uses queue that follows FIFO.
 18. [Reverse Level Order Traversal](https://www.geeksforgeeks.org/problems/reverse-level-order-traversal/1?page=2&category=Tree&difficulty=School,Basic,Easy,Medium&sortBy=difficulty) or [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/)
 
 19. [Diameter of Binary Tree](https://www.geeksforgeeks.org/problems/diameter-of-binary-tree/1?page=5&category=Tree&difficulty=School,Basic,Easy,Medium&sortBy=difficulty) or [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)
+
+20. [Check for Children Sum Property in a Binary Tree](https://www.geeksforgeeks.org/problems/children-sum-parent/1?page=2&category=Tree&sortBy=submissions)
+
+21. [Mirror Tree](https://www.geeksforgeeks.org/problems/mirror-tree/1?page=1&category=Tree&sortBy=submissions) or [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
+
+22. [Check for Balanced Tree](https://www.geeksforgeeks.org/problems/check-for-balanced-tree/1?page=1&category=Tree&sortBy=submissions) or [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/)
+
+23. [ZigZag Tree Traversal](https://www.geeksforgeeks.org/problems/zigzag-tree-traversal/1?page=1&category=Tree&sortBy=submissions) or [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
+
+24. [Check if subtree](https://www.geeksforgeeks.org/problems/check-if-subtree/1?page=2&category=Tree&sortBy=submissions) or [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)
+
+25. [Maximum Width of Binary Tree](https://www.geeksforgeeks.org/problems/maximum-width-of-tree/1?page=3&category=Tree&sortBy=submissions) or [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)
+
+26. [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)
