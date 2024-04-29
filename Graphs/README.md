@@ -64,3 +64,42 @@
 - In a connected graph, number of edges = number of vertices - 1 (min.)
 - In an undirected complete graph, number of edges = number of vertices C_2 (max.)
 - In a directed complete graph, number of edges = number of vertices * (number of vertices - 1) (max.)
+
+## Graph Implementation
+- 2 main elemental parts of graph:
+1. Vertices
+2. Edges
+
+- Cleanest form of graph implementation: Edge List implementation (not a good method)
+
+- Adjacency List: In this approach, we represent a graph as an array of linked list.
+Array: represents vertices [ith index represents neighbour of ith vertex.]
+Linked List: This neighbour information is stored in Linked List.
+
+> Neighbour is any node having direct edge from a vertex.
+> For directed weighted and undirected weighted graphs, instead of storing an integer in the linked list, we can store a pair. First parameter will represent neighbour vertex and second parameter will represent weight.
+
+- Adjacency Map: In this approach, we represent a graph in the form of array of hashmap/unordered map.
+Array: represents vertices [ith index represents data of its vertex.]
+Hashmap: Neighbour information is stored in Hashmap with key as its neighbour and value as its weight. If the graph is unweighted, we can use Hashset instead of Hashmap.
+
+> This approach is efficient in case of query whether b is a neighbour of a.
+
+- Adjacency Matrix: In this approach, we represent a graph in the form of a 2D array or matrix of v*v dimensions where v is the number of vertices.
+If adj[i][j] = 1, there is an edge from i to j vertex.
+If adj[i][j] = 0, there is no edge from i to j vertex.
+In case of weighted graphs, you can store pair of {1, weight} or weight instead of 1.
+
+> **Dense Graphs**: Number of edges are more compared to the volume of vertices.
+> **Sparse Graphs**: Number of edges are less compared to the volume of vertices.
+
+- Incidence Matrix: In this approach, we represent a graph in the form of a 2D array or matrix of v*e dimensions where v is the number of vertices and e is the number of edges.
+If M[i][j] = 1, ith vertex belongs to the ith edge.
+
+> This approach is better for undirected graphs. For directed graphs, preference is given to the vertex on which the edge is incidence. For weighted graphs, we can store weight instead of 1.
+
+> Column sum will always be 2. To maintain it, we can consider the value of self-loop as 2.
+> Row sum = degree
+---
+
+> Most **optimised** graph implementation is of **Adjacency List**.
