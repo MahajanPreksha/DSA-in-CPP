@@ -103,3 +103,24 @@ If M[i][j] = 1, ith vertex belongs to the ith edge.
 ---
 
 > Most **optimised** graph implementation is of **Adjacency List**.
+
+## Graph Traversals
+- To read any graph, we have two major techniques:
+1. Depth First Traversal/Search (DFS)
+2. Breadth First Traversal/Search (BFS)
+
+### Depth First Traversal/Search
+- It is an approach with recursive nature.
+
+> - Simplest solution for any path problem would be if source and destination are neighbours.
+> - If there is a path from neighbour to destination, then there will be a path from source to destination via the neighbour.
+
+### Breadth First Traversal/Search
+- In BFS, we travel the immediate neighbours of a node first together.
+- It can be used to find shortest path in case of unweighted graphs.
+- We use queues to implement BFS.
+- - It is an approach with iterative nature.
+
+#### Connected Component
+- It is a subset of the given graph that has vertices between which there is always a path.
+- Vertices present in two different connected components don't have a path.
