@@ -145,3 +145,11 @@ vector<int> v;
 15. [Rotate Array by One](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1) OR [189. Rotate Array](https://leetcode.com/problems/rotate-array)
 
 16. [Rotating an Array](https://www.geeksforgeeks.org/problems/reversal-algorithm5340/1?page=1&sortBy=difficulty)
+
+17. [Segregate 0s and 1s](https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1)
+
+18. [Sort in specific order](https://www.geeksforgeeks.org/problems/sort-in-specific-order2422/0) OR [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)
+
+19. [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)
+
+20. []()
