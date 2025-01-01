@@ -130,4 +130,18 @@ vector<int> v;
 
 8. [Even Odd Sum](https://www.geeksforgeeks.org/problems/even-odd-sum5450/0)
 
-9. 
+9. [Count pairs with given sum](https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum--150253/1) OR [1. Two Sum](https://leetcode.com/problems/two-sum/)
+
+10. [2824. Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)
+
+11. [Triplet Sum in Array](https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1) OR[15. 3Sum](https://leetcode.com/problems/3sum/)
+
+12. [Single Among Doubles](https://www.geeksforgeeks.org/problems/element-appearing-once2552/1)
+
+13. [Second Largest](https://www.geeksforgeeks.org/problems/second-largest3735/1)
+
+14. [1464. Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array)
+
+15. [Rotate Array by One](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1) OR [189. Rotate Array](https://leetcode.com/problems/rotate-array)
+
+16. [Rotating an Array](https://www.geeksforgeeks.org/problems/reversal-algorithm5340/1?page=1&sortBy=difficulty)
