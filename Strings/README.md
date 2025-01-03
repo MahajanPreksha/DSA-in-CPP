@@ -93,3 +93,7 @@ Time Complexity: O(length)
 5. [Isomorphic Strings](https://www.geeksforgeeks.org/problems/isomorphic-strings-1587115620/1) OR [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
 
 6. [Longest Common Prefix of Strings](https://www.geeksforgeeks.org/problems/longest-common-prefix-in-an-array5129/1) OR [Longest common prefix](https://www.geeksforgeeks.org/problems/minimum-shift-for-longest-common-prefix0759/1) OR [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
+
+7. [Decode the string](https://www.geeksforgeeks.org/problems/decode-the-string2444/1) OR [394. Decode String](https://leetcode.com/problems/decode-string)
+
+8. [Maximize Number of 1's](https://www.geeksforgeeks.org/problems/maximize-number-of-1s0905/1) OR [1004. Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii)
