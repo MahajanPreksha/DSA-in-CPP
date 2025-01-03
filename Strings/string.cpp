@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
+
 int main(){
     //Creating a string
     string str = "preksha";
@@ -17,7 +18,7 @@ int main(){
     getline(cin, s1);
     cout<<s1<<endl;
 
-    //ASCII Values
+    //Check ASCII Values
     char ch = 'a';
     cout<<int(ch)<<endl;
     return 0;
