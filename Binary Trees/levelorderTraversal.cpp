@@ -1,16 +1,18 @@
 #include<iostream>
 #include<queue>
 using namespace std;
+
 class Node{
     public:
         int value;
         Node* left;
         Node* right;
-    Node(int data){
-        value = data;
-        left = right = NULL;
-    }
+        Node(int data){
+            value = data;
+            left = right = NULL;
+        }
 };
+
 void levelorderTraversal(Node* root){
     if(root==NULL){
         return;
@@ -33,6 +35,7 @@ void levelorderTraversal(Node* root){
         cout<<endl;
     }
 }
+
 int main(){
     Node *root = new Node(2);
     root->left = new Node(4);

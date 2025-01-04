@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 class Node{
     public:
         int value;
@@ -10,6 +11,7 @@ class Node{
             left = right = NULL;
         }
 };
+
 int depth(Node* root){
     if(root==NULL){
         return 0;
@@ -18,6 +20,7 @@ int depth(Node* root){
     int rightDepth = depth(root->right);
     return max(leftDepth, rightDepth) + 1;
 }
+
 int main(){
     Node* root = new Node(2);
     root->left = new Node(4);

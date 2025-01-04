@@ -3,6 +3,7 @@
 #include<map>
 #include<vector>
 using namespace std;
+
 class Node{
     public:
         int value;
@@ -13,6 +14,7 @@ class Node{
         left = right = NULL;
     }
 };
+
 vector<int> topView(Node* root){
     vector<int> ans;
     if(root==NULL){
@@ -44,6 +46,7 @@ vector<int> topView(Node* root){
     }
     return ans;
 }
+
 int main(){
     Node *root = new Node(2);
     root->left = new Node(4);

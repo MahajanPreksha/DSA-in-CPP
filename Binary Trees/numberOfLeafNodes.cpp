@@ -1,15 +1,17 @@
 #include<iostream>
 using namespace std;
+
 class Node{
     public:
         int value;
         Node* left;
         Node* right;
-    Node(int data){
-        value = data;
-        left = right = NULL;
-    }
+        Node(int data){
+            value = data;
+            left = right = NULL;
+        }
 };
+
 int leafNodes(Node* root){
     //Base Case
     if(root==NULL){
@@ -18,11 +20,13 @@ int leafNodes(Node* root){
     if(root->left==NULL && root->right==NULL){
         return 1; //Leaf Node
     }
+    
     //Recursive Case
     int leftSubtreeLeafNodes = leafNodes(root->left);
     int rightSubtreeLeafNodes = leafNodes(root->right);
     return leftSubtreeLeafNodes + rightSubtreeLeafNodes;
 }
+
 int main(){
     Node *root = new Node(2);
     root->left = new Node(4);

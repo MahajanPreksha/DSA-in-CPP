@@ -2,16 +2,18 @@
 #include<vector>
 #include<queue>
 using namespace std;
+
 class Node{
     public:
         int value;
         Node* left;
         Node* right;
-    Node(int data){
-        value = data;
-        left = right = NULL;
-    }
+        Node(int data){
+            value = data;
+            left = right = NULL;
+        }
 };
+
 vector<int> rightView(Node* root){
     vector<int> ans;
     if(root==NULL){
@@ -38,6 +40,7 @@ vector<int> rightView(Node* root){
     }
     return ans;
 }
+
 int main(){
     Node *root = new Node(2);
     root->left = new Node(4);
