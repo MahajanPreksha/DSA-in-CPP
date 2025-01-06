@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
+
 int const N = 1e3;
+
 void insertMaxHeap(int maxHeap[], int &size, int value){
     size++;
     maxHeap[size] = value;
@@ -10,6 +12,7 @@ void insertMaxHeap(int maxHeap[], int &size, int value){
         curr = curr/2;
     }
 }
+
 int main(){
     int maxHeap[N] ={-1, 60, 50, 40, 30, 20, 10, 5};
     int size = 7;
@@ -21,3 +24,8 @@ int main(){
     cout<<endl;
     return 0;
 }
+
+/*  Height of a complete binary tree = log N
+    Time Complexity: O(h) = O(log N) in worst case
+    Space Complexity: O(1)
+*/
