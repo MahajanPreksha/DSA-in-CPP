@@ -11,8 +11,10 @@ int main(){
         cin>>ele; 
         v[i] = ele;
     }
+
+    //Calculating prefix sum array
     for(int i=1; i<=n; i++){
-        v[i] += v[i-1];
+        v[i] +=v[i-1];
     }
     int q;
     cin>>q;
@@ -21,6 +23,8 @@ int main(){
         cin>>l>>r;
         int ans = 0;
         if(l>0){
+
+            //ans = prefixSumArray[r] - prefixSumArray[l-1]
             ans = v[r-1] - v[l-1];
         }
         else{
