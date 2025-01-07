@@ -3,38 +3,38 @@
 #include<list>
 #include<unordered_set>
 using namespace std;
+
 vector<list<int>> graph;
-unordered_set<int> visted;
+unordered_set<int> visited;
 int v; //number of vertices
-vector<vector<int>> result;
+
 void add_edge(int src, int dest, bool bi_direc = true){
     graph[src].push_back(dest);
     if(bi_direc){
         graph[dest].push_back(src);
     }
 }
-void dfs(int curr, int end, vector<int>& path){
+
+bool dfs(int curr, int end){
     if(curr==end){
-        path.push_back(curr);
-        result.push_back(path);
-        path.pop_back();
-        return;
+        return true;
     }
-    visted.insert(curr); //mark visited
-    path.push_back(curr);
+    visited.insert(curr); //mark visited
     for(auto neighbour:graph[curr]){
-        if(!visted.count(neighbour)){
-            dfs(neighbour, end, path);
+        if(!visited.count(neighbour)){
+            bool res = dfs(neighbour, end);
+            if(res){
+                return true;
+            }
         }
     }
-    path.pop_back();
-    visted.erase(curr);
-    return;
+    return false;
 }
-void allPath(int src, int dest){
-    vector<int> v;
-    dfs(src, dest, v);
+
+bool anyPath(int src, int dest){
+    return dfs(src, dest);
 }
+
 int main(){
     cin>>v;
     graph.resize(v, list<int> ());
@@ -43,18 +43,13 @@ int main(){
     while(e--){
         int s, d;
         cin>>s>>d;
-        add_edge(s, d);
+        add_edge(s, d, false);
     }
     int x, v;
     cin>>x>>v;
-    allPath(x, v);
-    for(auto path:result){
-        for(auto ele:path){
-            cout<<ele<<" ";
-        }
-        cout<<endl;
-    }
+    cout<<anyPath(x, v)<<endl;
     return 0;
 }
+
 //Time Complexity: O(V + E)
 //Space Complexity: O(V) [comes due to recursion]

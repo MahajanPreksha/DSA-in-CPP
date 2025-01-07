@@ -2,14 +2,17 @@
 #include<vector>
 #include<list>
 using namespace std;
+
 vector<list<int>> graph;
 int v; //number of vertices
+
 void add_edge(int src, int dest, bool bi_direc = true){
     graph[src].push_back(dest);
     if(bi_direc){
         graph[dest].push_back(src);
     }
 }
+
 void display(){
     for(int i=0; i<graph.size(); i++){
         cout<<i<<"->";
@@ -19,6 +22,7 @@ void display(){
         cout<<endl;
     }
 }
+
 int main(){
     cin>>v;
     graph.resize(v, list<int> ());
