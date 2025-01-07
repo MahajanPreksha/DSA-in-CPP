@@ -152,4 +152,8 @@ vector<int> v;
 
 19. [977. Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)
 
-20. []()
+20. [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array)
+
+21. [Equilibrium Point](https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1?page=1&sortBy=submissions) OR [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index) OR [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array)
+
+22. [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable)
