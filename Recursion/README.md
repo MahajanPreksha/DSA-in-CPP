@@ -67,3 +67,9 @@ We will use an `idx` parameter to store the current index that we are pointing t
 15. [Subset Sums](https://www.geeksforgeeks.org/problems/subset-sums2234/0)
 
 16. [Unique Paths in a Grid](https://www.geeksforgeeks.org/problems/unique-paths-in-a-grid--170647/1) OR [Number of Unique Paths](https://www.geeksforgeeks.org/problems/number-of-unique-paths5339/0) OR [62. Unique Paths](https://leetcode.com/problems/unique-paths)
+
+17. [Subsets](https://www.geeksforgeeks.org/problems/subsets-1613027340/0) OR [78. Subsets](https://leetcode.com/problems/subsets)
+
+18. [Power Set](https://www.geeksforgeeks.org/problems/power-set4302/1)
+
+19. [Possible Words From Phone Digits](https://www.geeksforgeeks.org/problems/possible-words-from-phone-digits-1587115620/1) OR [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
