@@ -66,7 +66,9 @@ We will use an `idx` parameter to store the current index that we are pointing t
 
 15. [Subset Sums](https://www.geeksforgeeks.org/problems/subset-sums2234/0)
 
-16. [Unique Paths in a Grid](https://www.geeksforgeeks.org/problems/unique-paths-in-a-grid--170647/1) OR [Number of Unique Paths](https://www.geeksforgeeks.org/problems/number-of-unique-paths5339/0) OR [62. Unique Paths](https://leetcode.com/problems/unique-paths)
+16. [Number of Unique Paths](https://www.geeksforgeeks.org/problems/number-of-unique-paths5339/0) OR [62. Unique Paths](https://leetcode.com/problems/unique-paths)
+
+17. [Unique Paths in a Grid](https://www.geeksforgeeks.org/problems/unique-paths-in-a-grid--170647/1) OR [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii)
 
 17. [Subsets](https://www.geeksforgeeks.org/problems/subsets-1613027340/0) OR [78. Subsets](https://leetcode.com/problems/subsets)
 
