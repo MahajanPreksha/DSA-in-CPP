@@ -11,7 +11,7 @@ It contains:
 
 ## Topics covered:
 - [Arrays and Vectors](/Arrays%20&%20Vectors)
-- [2D Arrays](/2D%20Arrays)
+- [2D Arrays & 2D Vectors](/2D%20Arrays%20&%202D%20Vectors)
 - [Time and Space Complexity]()
 - [Recursion](/Recursion)
 - [Sorting Algorithms](/Sorting%20Algorithms)
